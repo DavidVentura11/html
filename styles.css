@@ -16,7 +16,8 @@ img {
 .red {
 	color:white;
 	background-color:black;
-	font-size: 30px
+	font-size: 30px;
+	text-align: center; 
 	
 	}
 
@@ -31,9 +32,14 @@ img {
 }
 	
 .blue {
-		font-size: 25px;
-		color:pink;
-		background-color:black;
+		padding: 5px 10px;
+            background-color: #3498db;
+            color:black;
+            font-size: 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
 		}
 
 .dream { height: 40px; 
@@ -97,4 +103,38 @@ img {
 	background-color:white;
 		}
 		
+		.Tokyo {
+			
+			
+			text-align: left;
+			
+			
+		}
 		
+		
+		.Colombo {
+		padding: 5px 10px;
+            background-color:gray ;
+            color:black;
+            font-size: 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+			
+			
+			
+			
+		}
+		
+	
+	
+		.Arugam {
+		padding: 5px 10px;
+            background-color: #3498db ;
+            color:black;
+            font-size: 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
